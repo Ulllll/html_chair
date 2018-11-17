@@ -1,0 +1,805 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+.padding-site{
+    padding-left: 98px;
+    padding-right: 98px;
+}
+.slider{
+    height: 800px;
+    background-image: url(img/slider-img.jpg);
+    position: relative;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 63px;
+}
+.menu{
+    padding-right: 69px;
+    margin-top: 53px;
+    display: flex;
+    list-style-type: none;
+}
+.menu1{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin-top: 52px;
+}
+.menu a{
+    color:  #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: right;
+    display: block;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.detail-menu a:hover,
+.menu1 a:hover,
+.menu a:hover{
+    color: #212121;
+}
+.detail-menu a:active,
+.menu1 a:active;
+.menu a:active{
+    color: #8c8c8c;
+}
+.menu1 a{
+    color:  #6c6c6c;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    display: block;
+    padding-right: 20px;
+    text-decoration: none;
+    line-height: 48px;
+    border-bottom: 1px solid #6c6c6c;
+}
+.menu .active-link{
+    color:  #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: right;
+    line-height: 48px;
+    border-bottom: 3px solid #212121;
+}
+.menu1 .active-link1{
+    color:  #212121;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    line-height: 48px;
+    border-bottom: 3px solid #212121;
+}
+.menu img{
+    width: 23px;
+    display: block;
+    padding-left: 10px;
+    padding-top: 14px;
+}
+.slider-text{
+    margin-top: 268px;
+}
+.product-up-text{
+    margin-top: 168px;
+}
+.slider-text h4{
+    color:  #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+.product-up-text h2,
+.slider2-text h2,
+.slider-text h2{
+    color:  #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    text-align: left;
+}
+.slider2-text h2,
+.slider-text h2{
+    letter-spacing: -5px;
+    text-transform: uppercase;
+}
+.slider2-text p,
+.slider-text p{
+    width: 458px;
+    color: #6c6c6c;
+    font-size: 14px; 
+    font-weight: 300;
+    line-height: 24px; 
+    text-align: left;
+    margin-bottom: 28px;
+    margin-top: 10px;
+}
+.slider2-text h4{
+    color: #e53935;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 48px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    padding-top: 287px;
+    text-transform: uppercase;
+}
+.slider2-text a,
+.slider-text a{
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    text-transform: uppercase;
+    border-radius: 22.5px;
+    color:  #212121;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    display: inline-block;
+    padding: 10px 31px;
+    text-decoration: none;
+}
+.info a:hover,
+.prep-2 a:hover,
+.promo1 a:hover,
+.promo2 a:hover,
+.slider2-text a:hover,
+.slider-text a:hover{
+    box-shadow: 4px 4px 9px 0.15px rgba(33, 33, 33, 0.35);
+}
+.prep-2 a:active,
+.promo1 a:active,
+.promo2 a:active,
+.slider2-text a:active,
+.slider-text a:active{
+    box-shadow: 0px 0px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    margin-top: 2px;
+}
+.circle-position{
+    display: flex;
+    position: absolute;
+    top: 743px;
+    left: 623px;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    display: block;
+    border-radius: 50%;
+    background-color: #8c8c8c;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.circle:hover{
+    background-color: #212121;
+}
+.active-circle{
+    display: block;
+    border-radius: 50%;
+    background-color: #212121;
+    width: 40px;
+    height: 40px;
+}
+.prep{
+    color: #6c6c6c;
+    text-align: left;
+    padding-top: 120px;
+    display: flex;
+    padding-bottom: 7px;
+    justify-content: space-between;
+}
+.prep .text-mini{
+    font-size: 36px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    display: block;
+    width: 120px;
+    border-bottom: 1px solid  #6c6c6c;
+    padding-bottom: 7px;
+    margin-left: -683px;
+}
+.text-mini:hover{
+    color: #212121;
+}
+.prep .text-mini-active{
+    color: #212121;
+    font-size: 36px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;  
+    width: 220px;
+    border-bottom: 3px solid #212121;
+    padding-bottom: 7px;
+}
+.explorer{
+    display: block;
+    text-transform: uppercase;
+    color:  #212121;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    padding-top: 16px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.explorer:hover{
+    color: #8c8c8c;
+}
+.explorer:active{
+    color: #212121;
+}
+.mini-catalog{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.item{
+    position: relative;
+}
+.back{
+    background-image: url(img/back.jpg);
+    border-width: 1px;
+    border-color: #9c9c9c;
+    border-style: solid;
+    background-color: #ffffff;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 268px;
+    height: 268px;
+    display: none;
+}
+.back a{
+    color:  #212121;
+    font-size: 25px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35); 
+    text-decoration: none;
+    margin-left: 111px;
+    margin-right: 111px;
+    margin-top: 62px;
+    padding: 14px 18px;
+    width: 12px;
+    height: 20px;
+}
+.back h5{
+    color: #212121;
+    font-size: 21.91px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 30px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleX(1.0041); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    padding-left: 63px;
+    padding-right: 62px;
+    padding-top: 19px;
+}
+.back p{
+    color: #6c6c6c;
+    font-size: 13.94px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 22px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleX(1.0041); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    padding-bottom: 68px;
+}
+.item:hover .back{
+    display: block;
+}
+.promo-prep{
+    padding-top: 115px;
+    display: flex;
+}
+.prep-2 h4,
+.promo-prep h4{
+    text-transform: uppercase;
+    padding-left: 51px;
+    padding-top: 228px;
+    color: #1e88e5;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 48px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+.prep-2 h4{
+    padding-top: 186px;
+    padding-left: 31px;
+}
+.prep-2 h2,
+.promo-prep h2{
+    color: #212121;
+    font-size: 36px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    padding-left: 51px;
+    padding-bottom: 5px;
+}
+.prep-2 p,
+.promo-prep p{
+    color: #6c6c6c;
+    font-size: 13.99px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    transform: scaleY(1.0022); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    padding-left: 51px;
+    width: 374px;
+    height: 36px;
+    padding-bottom: 34px;
+}
+.prep-2 a,
+.promo-prep a{
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    border-radius: 22.5px;
+    color: #212121;
+    font-size: 17.99px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 51px;
+    padding: 10px 41px 10px 31px;
+    text-transform: uppercase;
+    
+}
+.prep-2 h2,
+.prep-2 p,
+.prep-2 a{
+    padding-left: 31px;
+}
+.promo1,
+.promo2 {
+    display: block;
+    width: 683px;
+    height: 683px;
+}
+.promo1{
+    background-image: url(img/promo-img1.png);
+}
+.promo2{
+    background-image: url(img/promo-img.png);
+}
+.trend{
+    padding-top: 98px;
+    display: flex;
+    justify-content: space-between;
+}
+.trending{
+    color: #212121;
+    font-size: 36px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+}
+.trend-img{
+    padding-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.trend-img a{
+    padding-bottom: 30px;
+    width: 370px;
+    height: 370px;
+}
+.catalog1 a img,
+.block-img-prep a img,
+.trend-img a img{
+    border: 1px solid transparent;
+}
+.catalog1 a img:hover,
+.block-img-prep a img:hover,
+.trend-img a img:hover{
+    border: 1px solid #212121;
+}
+.slider2{
+    height: 800px;
+    background-image: url(img/slider2.jpg);
+    margin-top: 120px;
+    position: relative;
+}
+.mini-catalog2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    flex-wrap: wrap;
+}
+.prep-2{
+    background-image: url(img/mini1.jpg);
+    width: 570px;
+    height: 570px;
+    flex-flow: column;
+}
+.block-img-prep{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 600px;
+    margin-top: -572px;
+}
+.block-img-prep a{
+    padding-bottom: 25px;
+}
+.mobile-app{
+    background-image: url(img/mobile-app.jpg);
+    height: 516px;
+    margin-top: 120px;
+}
+.apply{
+    display: flex;
+}
+.mobile-app h4{
+    color: #6c6c6c;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 48px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 120px;
+}
+.mobile-app h2{
+    color: #212121;
+    font-size: 62px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 100;
+    line-height: 72px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-top: 7px;
+    margin-bottom: 11px;
+    width: 410px;
+}
+.mobile-app p{
+    color: #6c6c6c;
+    font-size: 22px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-bottom: 33px;
+}
+.apply a{
+    padding-right: 10px;
+}
+.footer{
+    background-color: #f7f7f7;
+    height: 384px;
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+}
+.stay p,
+.contact p{
+    color: #212121;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 22px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+.useful h5,
+.stay h5,
+.contact h5{
+    color: #6c6c6c;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    margin-top: 120px;
+}
+.contact p{
+    display: block;
+    padding-bottom: 24px;
+}
+.useful-i{
+    display: flex;
+    justify-content: space-between;
+}
+.useful-i a{
+    padding-right: 100px;
+    text-decoration: none;
+}
+.useful div a{
+    color: #212121;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 26px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.useful div a:hover{
+    color: #8c8c8c;
+}
+.stay p{
+    width: 363px;
+}
+.stay input{
+    border-width: 1px;
+    border-color: #d9dee1;
+    border-style: solid;
+    background-color: #ffffff;
+    width: 368px;
+    height: 46px;
+    margin-top: 43px;
+} 
+.footer2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.footer2 div{
+    color: #6c6c6c;
+    font-size: 12px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 26px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    text-transform: uppercase;
+}
+.social-s{
+    display: flex;
+}
+.product-up{
+    background-color:  #f5f5f5;
+    height: 360px;
+}
+.catalog1,
+.catalog{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.catalog1{
+    margin-bottom: 120px;
+}
+.products a img{
+    margin-bottom: 29px;
+    margin-right: 28px;
+    width: 350px;
+     border: 1px solid transparent;
+}
+.products a img:hover{
+    border: 1px solid #212121;
+}
+
+.update{
+    padding-left: 544px;
+    padding-top: 41px;
+}
+.detail{
+    background-color: #f4f4f4;
+    height: 70px;
+    margin-top: 29px;
+}
+.detail-menu{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-left: 262px;
+    padding-right: 262px;
+    padding-top: 28px;
+}
+.detail-menu .detail-menu-active{
+    color: #212121;
+    font-size: 17.99px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: center
+}
+.detail-menu a{
+    text-decoration: none;
+    color: #6c6c6c;
+    font-size: 17.99px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: center;
+    transform: scaleY(1.0006);/* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+.detail-product{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+.detail-img img{
+    margin-right: 10px;
+    border: 1px solid transparent;
+}
+.detail-img img:hover{
+    border: 1px solid #212121;
+}
+.info h3{
+    color: #212121;
+    font-size: 35.98px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: center;
+    transform: scaleY(1.0005); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    padding-top: 47px;
+}
+.info h4{
+    color: #e53935;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 48px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleY(1.0005); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    text-transform: uppercase;
+    padding-bottom: 36px;
+}
+.info h2{
+    color: #212121;
+    font-size: 36px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 48px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    margin-bottom: 58px;
+}
+.info h2 span{
+    color: #212121;
+    font-size: 72px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 48px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleY(1.0005); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+.info a{
+    color: #ffffff;
+    font-size: 21.99px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleY(1.0005); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    background-color: #f44336;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    border-radius: 110px;
+    text-decoration: none;
+    padding: 20px 160px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+form{
+    position: relative;
+}
+input{
+    padding-right: 30px;
+}
+.button-type{
+    position: absolute;
+    left: 373px;
+    top: 55px;
+    border: none;
+    font-family: icomoon;
+    color: #6c6c6c;
+    font-size: 22px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 22px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    background-color: white;
+}
+.button-type:hover{
+    color: #212121;   
+}
+.button-type:active{
+    background-color: #8c8c8c;
+}
+.text-detail{
+    margin-top: 77px;
+}
+.info .text-detail p{
+    color: #212121;
+    font-size: 16px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    transform: scaleY(1.0005); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    padding-bottom: 10px;
+}
+.mini-detail-img{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 190px;
+}
+.related-product{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 215px;
+}
+.related-product h3{
+    color: #212121;
+    font-size: 36px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+}
+.social-s form button{
+    font-family: icomoon;
+    color: #6c6c6c;
+    font-size: 28px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 26px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    border: none;
+}
+.social-s form button:hover{
+    color: #212121;
+}
+.contact-us{
+    margin-top: 71px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-us div img{
+    padding-left: 166px;
+    padding-top: 48px;
+}
+.contact-us div{
+    border-width: 1px;
+    border-color: #9c9c9c;
+    border-style: solid;
+    background-color: #ffffff;
+    opacity: 0.9;
+    width: 368px;
+    height: 368px;
+    margin-bottom: 120px;
+}
+.contact-us div h4{
+    padding-top: 34px;
+    padding-bottom: 23px;
+    margin: 0px;
+    color: #212121;
+    font-size: 21.91px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 30px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleX(1.0041); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+.contact-us div h5{
+    margin: 0px;
+    color: #6c6c6c;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 20.082px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+.contact-us div h6{
+    margin: 0px;
+    color: #212121;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 20.082px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    padding-bottom: 15px;
+}
+.contact-us div p{
+    margin: 0px;
+    color: #6c6c6c;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 20.082px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleX(1.0041);/* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
